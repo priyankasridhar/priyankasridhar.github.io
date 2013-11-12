@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" class="fh" ng-app>
+<head>
+	<meta charset="UTF-8">
+<title>My Portfolio</title>
+<!--
+<link href='http://fonts.googleapis.com/css?family=Rosario' rel='stylesheet' type='text/css'>
+-->
+<link href='http://fonts.googleapis.com/css?family=Rouge+Script' rel='stylesheet' type='text/css'>
+<link href='style/bootstrap.css' rel='stylesheet' type='text/css'>
+<link href='style/bootstrap-responsive.css' rel='stylesheet' type='text/css'>
+<link href='style/home.css' rel='stylesheet' type='text/css'>
+<link rel="icon" type="image/ico" href="images/icon.png"/>
+
+
+
+<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<script src="http://code.angularjs.org/1.2.0rc1/angular.min.js"></script>
+<script type="text/javascript" src="scripts/main.js" ></script>
+<script src="http://gatoraze.com/bootstrap/docs/assets/js/bootstrap-modal.js"></script>
+<script src="http://gatoraze.com/bootstrap/docs/assets/js/bootstrap-carousel.js"></script>
+
+</head>
+<body class="fh">
+	<div class="container " ng-controller="Report">
+		<div id="topdiv" class="clearfix">
+	<!--
+	<img src="images/logo.png" alt="" class="pull-left logo">
+	-->
+	<img src="images/profile2.jpg" alt="" class="pull-left img-circle img-polaroid logo">
+	<h2 class="text-center pull-left" id=main-heading>Priyanka Sridhar</h2>
+	<h4 class="text-center pull-right tagline">- I'm a content designer based in Hyderabad, India</h4>
+</div>
+<div class="topdivider"></div>
+<ul class="text-center ackground-clouds topbar unstyled inline">
+	<li ><a href="index.php">I am </a></li>
+	<li><a href="see.php">how i see </a></li>
+	<li><a href="reports.php">how i craft </a></li>
+	<li><a href="work.php">how i work </a></li>
+	<li><a href="work.php">how i achieve </a></li>
+	<li><a href="contact.php">contact</a></li>
+</ul>
+		<div class="background-white">
+		<div class="row">
+			<div class="topdivider"></div>
+			<h2 class=text-center>My Metro6 musings</h2>
+			<div class="span3 well metro-thumbnail offset1" ng-click="showImage(0);">
+				<img class="img-polaroid" src="images/metro6/photo0.jpg" alt="">
+			</div>
+			<div class="span3 well metro-thumbnail" ng-click="showImage(5);">
+				<img class="img-polaroid" src="images/metro6/photo5.jpg" alt="">
+			</div>
+			<div class="span3 well metro-thumbnail" ng-click="showImage(4);">
+				<img class="img-polaroid" src="images/metro6/photo4.jpg" alt="">
+			</div>
+			<div class="span3 offset1 well metro-thumbnail " ng-click="showImage(3);">
+				<img class="img-polaroid" src="images/metro6/photo3.jpg" alt="">
+			</div>
+			<div class="span3 well metro-thumbnail" ng-click="showImage(2);">
+				<img class="img-polaroid" src="images/metro6/photo2.jpg" alt="">
+			</div>
+			<div class="span3 well metro-thumbnail" ng-click="showImage(1);">
+				<img class="img-polaroid" src="images/metro6/photo1.jpg" alt="">
+			</div>
+			<div class="clearfix"></div>
+			<h2 class=text-center>Okay, off to some serious reporting.</h2>
+			<div class="span10 offset1">
+				<div class="well">
+					<h3 class="text-center">Environmental and wildlife film festival (Day 3)</h3>
+					<div class=span3>
+						<img class="img-plaroid pull-left" src="images/wild-life.png" alt="">
+					</div>
+					<p class="report-para">CMS is an independent, not-for-profit and multi-disciplinary organization dedicated to research-driven initiatives. It enables policy makers to make informed decisions on development and social change. CMS is recognized for its rigorous study methodologies, innovative approaches to research and for the credibility of its findings. CMS is celebrating its 20 years of commitment and concerns.</p>
+					<p class="report-para">Over the past two decades, CMS has carved a niche for itself in social research, social development studies and strategies for environment protection, communication studies, public opinion research, training, and performance appraisal. It has large-scale national studies in its portfolio.</p>
+					<!--
+					<p class="report-para">Cities are the drivers of economies across the world and about 80% of the total GHG emissions globally are attributed to them. This is true, more so, for India, where development is largely concentrated in the cities. The GHG emission in the cities is mainly from energy consumption in commercial, residential and public sectors and from dumping of solid waste. By 2050 it is projected that about 60% of the population in Asia will reside in its cities. With growing population, the emissions are likely to increase manifold unless steps are taken to contain them. Other than the demands on energy and waste management, pressure is growing on water and food security of cities as well, which is likely to become scarcer with climate change.</p>
+					-->
+					<div class="span3 offset3">
+						<a class="btn btn-block btn-primary" href="javascript:void(0);" ng-click="showReport(1);">Complete report</a>
+					</div>
+					<div class="topdivider clearfix"></div>
+					<div class="topdivider clearfix"></div>
+				</div>
+			</div>
+			<div class="span10 offset1">
+				<div class="well">
+					<h3 class="text-center">Confronting carbon change: towards carbon neutral indian cities</h3>
+					<div class=span3>
+						<img class="img-plaroid" src="images/carbon-change.png" alt="">
+					</div>
+					<p class="report-para">The natural environment and its composition is of great concern in today’s world. The existence of the environment’s composition contributes to the existence of life on earth. Its depletion affects our living. These environmental concerns need to be speculated and brought to people’s attention.</p>
+					<p class="report-para">Our climate undergoes a lot of change in the course of time. A lot of factors contribute to this change. It is because of these factors that the severity of the change is affected, and hence affecting us in the process. Climate change affects WATER through a number of mechanisms. Water, which is particularly focused on, in the city of Hyderabad has to be maintained and preserved for the benefit of our survival.</p>
+					<!--
+					<p class="report-para">Cities are the drivers of economies across the world and about 80% of the total GHG emissions globally are attributed to them. This is true, more so, for India, where development is largely concentrated in the cities. The GHG emission in the cities is mainly from energy consumption in commercial, residential and public sectors and from dumping of solid waste. By 2050 it is projected that about 60% of the population in Asia will reside in its cities. With growing population, the emissions are likely to increase manifold unless steps are taken to contain them. Other than the demands on energy and waste management, pressure is growing on water and food security of cities as well, which is likely to become scarcer with climate change.</p>
+					<a class="btn btn-primary" href="javascript:void(0);" ng-click="hideReport(2);">Hide Report</a>
+					-->
+					<div class="span3 offset3">
+						<a class="btn btn-block btn-primary" href="javascript:void(0);" ng-click="showReport(2);">Complete report</a>
+					</div>
+					<div class="topdivider clearfix"></div>
+					<div class="topdivider clearfix"></div>
+				</div>
+			</div>
+			<div class="span10 offset1">
+				<div class="well">
+					<h3 class="text-center">Workshop on demystifying climatic change</h3>
+					<div class=span3>
+						<img class="img-plaroid" src="images/climate-change.png" alt="">
+					</div>
+					<p class="report-para">Climate change has become one of the biggest challenges to mankind in the 21st century but to act on it requires a good understanding of the issue. As an issue that affects everybody from the young and the old to the rich and the poor, climate change needs to be understood by all in order to contribute to the solution.</p>
+					<p class="report-para">Demystifying Climatic Change is basically breaking down of or demystifying the very concept of climatic change.  "Demystifying climate change" is a workshop that focuses on the science behind climate change and allays the doubts that many skeptics raise in order to avoid serious action on climate change. The mystery behind climatic change has to be cleared in order to prevent its further negative induction. For youth leaders, it becomes vital that their understanding is based on science and evidence and not get carried away by baseless skeptical arguments. . The workshop is for young students and professionals who need to gain the basic understanding of the issue through all possible perspectives and at the end choose the area he/she can focus to work on. The Indian Youth climate network offers similar workshops to train young minds and equip them with the necessary tools to take climate action.</p>
+					<!--
+					<p class="report-para">Cities are the drivers of economies across the world and about 80% of the total GHG emissions globally are attributed to them. This is true, more so, for India, where development is largely concentrated in the cities. The GHG emission in the cities is mainly from energy consumption in commercial, residential and public sectors and from dumping of solid waste. By 2050 it is projected that about 60% of the population in Asia will reside in its cities. With growing population, the emissions are likely to increase manifold unless steps are taken to contain them. Other than the demands on energy and waste management, pressure is growing on water and food security of cities as well, which is likely to become scarcer with climate change.</p>
+					<a class="btn btn-primary" href="javascript:void(0);" ng-click="hideReport(2);">Hide Report</a>
+					-->
+					<div class="span3 offset3">
+						<a class="btn btn-block btn-primary" href="javascript:void(0);" ng-click="showReport(3);">Complete report</a>
+					</div>
+					<div class="topdivider clearfix"></div>
+					<div class="topdivider clearfix"></div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+	<div id=report-modal1 class="container modal out hide report-modal fade">
+			<a class="close" data-dismiss="modal">x</a>
+			<div class="well fh"> 
+				<div class="modal-header">
+				</div>
+				<object data="images/report1.pdf" type="application/pdf" width="100%" height="100%">
+					<p>It appears you don't have a PDF plugin for this browser.No biggie... you can <a href="images/report1.pdf">click here to download the PDF file.</a></p>
+				</object>
+			</div>
+	</div>
+	<div id=report-modal2 class="container modal out hide report-modal fade">
+			<a class="close" data-dismiss="modal">x</a>
+			<div class="well fh"> 
+				<div class="modal-header">
+				</div>
+				<object data="images/report2.pdf" type="application/pdf" width="100%" height="100%">
+					<p>It appears you don't have a PDF plugin for this browser.No biggie... you can <a href="images/report2.pdf">click here to download the PDF file.</a></p>
+				</object>
+			</div>
+	</div>
+	<div id=report-modal3 class="container modal out hide report-modal fade">
+			<a class="close" data-dismiss="modal">x</a>
+			<div class="well fh"> 
+				<div class="modal-header">
+				</div>
+				<object data="images/report3.pdf" type="application/pdf" width="100%" height="100%">
+					<p>It appears you don't have a PDF plugin for this browser.No biggie... you can <a href="images/report3.pdf">click here to download the PDF file.</a></p>
+				</object>
+			</div>
+	</div>
+	<div id=image-modal class="container fh modal hide report-modal fade">
+		<a class="close" data-dismiss="modal">x</a>
+		<div class="well text-center"> 
+			<div class="modal-header"></div>
+			<img id=metro6-image src="images/metro6/photo0.jpg" class=img-polaroid />
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,91 @@
+body {
+  font-family: 'Rosario', sans-serif;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 17px;
+  background: #555;
+  background: url(../images/brushed_alu_dark.png);
+}
+.background-white {
+  background: #FFF;
+}
+#topdiv {
+  background: #5ba7a7;
+  background: url(../images/header-texture-v2.jpg);
+  line-height: 100px;
+  padding: 5px;
+}
+.topdivider {
+  height: 10px;
+}
+.fh {
+  height: 100%;
+}
+.logo {
+  width: 100px;
+  height: 100px;
+}
+#main-heading {
+  font-family: 'Rouge Script', cursive;
+  font-size: 50px;
+  line-height: 100px;
+  height: 100px;
+  margin: 0px 2px 0px 10px;
+  color: #d35400;
+  color: #f1c40f;
+  color: #f5f5f5;
+}
+.main-page-para {
+  font-size: 18px;
+}
+.tagline {
+  font-size: 17px;
+  line-height: 25px;
+  height: 25px;
+  margin: 75px 2px 0px 10px;
+}
+ul.topbar {
+  height: 75px;
+  line-height: 75px;
+}
+ul.topbar li {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 35px;
+  font-size: 20px;
+  line-height: 35px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+ul.topbar li a {
+  color: #ccc;
+}
+ul.topbar li.active a {
+  color: #2ecc71;
+}
+p.see-para,
+p.report-para {
+  margin: 30px 20px 20px 10px;
+  line-height: 30px;
+  font-size: 18px;
+  text-align: justify;
+}
+.report-modal {
+  display: none;
+  position: fixed;
+  top: 2% !important;
+  margin-left: -37.5%;
+  min-height: 90%;
+  height: 700px;
+}
+#metro6-image {
+  width: 740px;
+}
+#image-modal {
+  overflow: auto;
+  min-height: 95%;
+}
+.metro-thumbnail,
+.metro-thumbnail img,
+metro-thumbnail h3 {
+  cursor: pointer;
+}
