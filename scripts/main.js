@@ -20,9 +20,13 @@ function Home($scope){
 
 function Work($scope){
 	$(".topbar").children(":eq(3)").addClass("active");
+	$('#myCarousel').carousel({interval:false});
 }
 function See($scope){
 	$(".topbar").children(":eq(1)").addClass("active");
+}
+function Achieve($scope){
+	$(".topbar").children(":eq(4)").addClass("active");
 }
 function smartScroll(){
 

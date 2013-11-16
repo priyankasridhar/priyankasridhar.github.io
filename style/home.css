@@ -89,3 +89,38 @@ p.report-para {
 metro-thumbnail h3 {
   cursor: pointer;
 }
+.carousel-control {
+  position: relative;
+  top: 5%;
+  left: 15px;
+}
+.carousel-indicators li {
+  height: 10px;
+  width: 10px;
+  cursor: pointer;
+  background-color: #777;
+}
+.carousel-indicators li.active {
+  background-color: #2ecc71;
+}
+.control {
+  font-size: 70px;
+  color: #777;
+  position: relative;
+  top: 200px;
+  z-index: 100;
+}
+.carousel-inner {
+  margin-top: 20px;
+}
+.slide-buttons {
+  width: 60px;
+  height: 60px;
+}
+ul.achievements li {
+  margin: 10px 0px 30px 0px;
+}
+ul.achievements li h4 {
+  font-size: 20px;
+  margin: 55px auto;
+}
