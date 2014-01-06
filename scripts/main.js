@@ -28,6 +28,9 @@ function See($scope){
 function Achieve($scope){
 	$(".topbar").children(":eq(4)").addClass("active");
 }
+function Contact($scope){
+	$(".topbar").children(":eq(5)").addClass("active");
+}
 function smartScroll(){
 
 }
